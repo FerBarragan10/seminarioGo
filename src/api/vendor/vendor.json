@@ -1,0 +1,19 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "rHtIY46Blz1VqSg2T1cvPNVYj+4=",
+			"path": "github.com/gin-gonic/gin",
+			"revision": "db9174ae0c2587fe1c755def0f88cb9aba9e9641",
+			"revisionTime": "2019-11-01T02:47:40Z"
+		},
+		{
+			"checksumSHA1": "0howpugjWRmZZbrX3Q4sNkj74gY=",
+			"path": "github.com/go-sql-driver/mysql",
+			"revision": "b4242bab7dc57d57fef955900943999b6fb34b67",
+			"revisionTime": "2019-11-14T11:57:53Z"
+		}
+	],
+	"rootPath": "api"
+}

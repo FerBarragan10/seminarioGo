@@ -1,0 +1,3 @@
+instalar GOPATH
+
+mi pc -> propiedades->configuracion avanzada del sistema->variables de entorno->GOPATH->%USERPROFILE%\go;C:\Users\fernando\Desktop\seminario go

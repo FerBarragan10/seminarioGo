@@ -1,0 +1,38 @@
+func main(){
+  a:=5
+  b:=10
+  var c*int
+  c=&b
+   fmt.println(a)
+   fmt.println(&a)
+   fmt.println(&b)
+   fmt.println(c)
+   fmt.println(&c)   	
+}
+/////////////////////////////////7
+import{
+"encoding/json"
+
+
+func main(){
+myString:="hola como andas"
+var a [] byte
+a,_ =json.Marshal(MyString)//convertir un string a arreglo de bytes(Marshal)
+fmr.Println(a)
+
+var otroString string
+_=json.Unmarshal(a, &otroString)//convertir un arreglo de bytes a string(Unmarshal)
+fmr.Println(a)
+fmt.println(otroString)
+
+
+//////////////////////////
+Miauto:=Auto{
+   Marca:"renault"
+   Modelo:"clio"
+}
+fmt.Println("miauto",Miauto)
+MiautoMarshalled,_:=json.Marshall(Miauto)
+fmt.Println("miautoMarshalled",MiautoMarshalled)
+fmt.Println("miautoMarshalled",string(MiautoMarshalled))
+
